@@ -14,19 +14,23 @@
   
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
-            <h1 class="navbar-brand">El Mundial de Futbol</h1>
+    <header
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+        <h1 class="navbar-brand">El Mundial de Futbol</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="../Inicio.html" target="_blank">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./mundiales.html" target="_blank">Mundiales</a>
+                        <a class="nav-link" href="./mundiales.html">Mundiales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Selecciones.html">Ganadores</a>
+                        <a class="nav-link" href="./Selecciones.html"target="_blank">Ganadores</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./JugadoreDestacados.html" target="_blank">Jugadores destacados</a>
@@ -44,8 +48,8 @@
             hubo muchos campeones, y por consecuencia, muchos subcampeones. <br>
             A continuacion podras ver el año, lugar, campeon y subcampeon de todos los mundiales dispoutados hasta la fecha:
         </p>
-        <div class="container">
-            <table border="3px" >
+        <div class="table-responsive" class="back">
+            <table class="table table-striped" >
                 <tr>
                     <th>Mundiales</th>
                 </tr>
@@ -191,11 +195,20 @@
             </table>
         </div>
     </main>
-    <footer>
-        <h2>
-            Si quieres saber más sobre el mundo del fútbol, haz clic <a href="./SaberMas.html" target="_blank">aquí</a>.
-        </h2>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="h4">
+                        Si quieres saber más sobre el mundo del fútbol haz click <a href="./SaberMas.html"
+                            target="_blank"
+                            class="text-decoration-none">aquí</a>.
+                    </h2>
+                </div>
+            </div>
+        </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

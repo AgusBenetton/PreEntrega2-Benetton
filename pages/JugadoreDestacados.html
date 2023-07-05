@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/copa-del-mundo.ico" type="image/x-icon">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
     <link rel="stylesheet" href="../css/jugadoresdestacados.css">
     <title>Mundialdefutbol.com</title>
 </head>
@@ -12,6 +17,10 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
             <h1 class="navbar-brand">El Mundial de Futbol</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -21,10 +30,10 @@
                         <a class="nav-link" href="./mundiales.html" target="_blank">Mundiales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Selecciones.html">Ganadores</a>
+                        <a class="nav-link" href="./Selecciones.html"target="_blank">Ganadores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./JugadoreDestacados.html" target="_blank">Jugadores destacados</a>
+                        <a class="nav-link" href="./JugadoreDestacados.html">Jugadores destacados</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./SaberMas.html" target="_blank">Saber más</a>
@@ -33,58 +42,92 @@
             </div>
         </nav>
     </header> 
-    <main>
-        <h2>Jugadores Destacados.</h2>
-        <p>El sueño de todo jugador de futbol es ganar un mudial de futbol, pero la gloria eterna es ser totalmente determinante para ganar 
-            la copa del mundo <br>
-            Los jugadores mas destacados en la historia de los mundiales son:
-        </p>
-        <section>
-            <h3>Pele.</h3>
-            <p>
-                Pele es el maximo ganador de la historia de los mundiales contando con 3 copas del mundo. Es considerado por muchos como el 
-                mejor jugador de la historia. Pele se gano los mundiales de 1958,1962 y 1970. Pele destaco principalmente en el mundial de 
-                1958 donde tan solo con 18 años logro llevar a brasil a su segunda final del mundo donde anoto 2 goles. Pele termino el mundial
-                con 6 goles anotados siendo asi el segundo maximo anotador del certamen. Tambien Pele fue parte de considerado por muchos la mejor
-                seleccion de la historia, la del brasil del año 70 que logro ser campeona del mundon ese mismo año. Tabien pele tiene el record 
-                de ser el jugador que mas veces asistio en un solo mundia con la increible cifra de 6 asistencia en el mundial de 1970. <br>
-                <img src="../img/jugadores/pele.jpg" alt="Hubo un error al cragar la imagen">
-            
-            </p>
-        </section>
-        <section>
-            <h3>Diego Maradona</h3>
-            <P>
-                Maradona tiene un solo mundial de futbol. Tiene un historia enorme en los mundiales llegando a dos finales. La actuacion de Maradona
-                en el mundial de Mexico 86 es considerada como la mejor actuacion individial en un mundial de la historia. Diego registro 5 goles y 5 
-                asistencia. Tambien en dicho mundial logro marcar dos goles contra Inglaterra que son recordados por todo el mundo. Estos goles fueron:
-                "El gol del siglo" donde agarra la pelota en la mitad de la cancha elude a 5 jugadores ingleses, incluyendo al arquero, y anota el gol.
-                "La mano de dios" gol hecho con la mano ante los ingleses. Pero lo de Maradona fue mas alla de los goles o asistencia, Diego dejo
-                todo en la cancha para lograr darle la segunda copa del mundo a Argentina. <br>
-                <img src="../img/jugadores/maradona.jpg" alt="Hubo un error al cragar la imagen">
-
-            </P>
-        </section>
-        <section>
-            <h3>Lionel Messi.</h3>
-            <p>
-                Lionel Messi, al igual que Maradona, tiene solo un mundial ganado pero logro llevara a la Argentina a dos finales(2014 y 2022)
-                Lionel protagonizo un de las mejores estadisticas hechas en un mundial con 7 goles y 5 asistencia, llevandose asi el premio 
-                al mejor jugador del mundial, que tambien lo gano en el 2014 pero no pudo concretar el mundial soñados ya que perdio la final
-                por 1 a 0 contra Alemania. Por lo tanto Messi es el unico jugador de la historia en ganar dos veces el premio al mejor jugador
-                del mundial. La historia de Messi en los mundiales puede que no termine aqui, ya qqque puede que llegue al disputar el proximno 
-                mundial del 2026 convirtiendose asi en el unico jugador en la historia en disputar 6 mundiales. <br>
-                <img src="../img/jugadores/messi.jpg" alt="Hubo un error al cragar la imagen">
-
-            </p>
-        </section>
-        <a href="#arriba">Ir a arriba</a>
-        
-    </main>
-    <footer>
-        <h2>
-            Si quieres saber mas sobre el mundo del futbol haz click <a href="./pages/SaberMas.html" target="_blank">aqui</a>.
-        </h2>
+    <body>
+        <main>
+            <div class="container">
+                <h2>Jugadores Destacados.</h2>
+                <p>El sueño de todo jugador de fútbol es ganar un Mundial, pero la gloria eterna es ser totalmente determinante para
+                    ganar la Copa del Mundo.</p>
+                <p>Los jugadores más destacados en la historia de los mundiales son:</p>
+                <section>
+                    <h3>Pelé.</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                Pelé es el máximo ganador de la historia de los mundiales, contando con 3 copas del mundo. Es considerado
+                                por muchos como el mejor jugador de la historia.
+                            </p>
+                            <p>
+                                Pelé destacó principalmente en el Mundial de 1958, donde tan solo con 18 años logró llevar a Brasil a su
+                                segunda final del mundo y anotó 2 goles. Pelé terminó el mundial con 6 goles anotados, siendo el segundo
+                                máximo anotador del certamen. También fue parte del considerado por muchos la mejor selección de la
+                                historia, la de Brasil en 1970, que logró ser campeona del mundo ese mismo año. Pelé tiene el récord de ser
+                                el jugador que más veces asistió en un solo mundial, con la increíble cifra de 6 asistencias en el Mundial
+                                de 1970.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="../img/jugadores/pele.jpg" alt="Hubo un error al cargar la imagen" class="img-fluid">
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h3>Diego Maradona</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                Maradona tiene un solo mundial de fútbol. Tiene una historia enorme en los mundiales, llegando a dos
+                                finales. La actuación de Maradona en el Mundial de México 86 es considerada como la mejor actuación
+                                individual en un mundial de la historia.
+                            </p>
+                            <p>
+                                Diego registró 5 goles y 5 asistencias. También en dicho mundial logró marcar dos goles contra Inglaterra
+                                que son recordados por todo el mundo. Estos goles fueron: "El gol del siglo", donde agarra la pelota en la
+                                mitad de la cancha, elude a 5 jugadores ingleses, incluyendo al arquero, y anota el gol; y "La mano de dios",
+                                gol hecho con la mano ante los ingleses. Pero lo de Maradona fue más allá de los goles o asistencias, Diego
+                                dejó todo en la cancha para lograr darle la segunda copa del mundo a Argentina.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="../img/jugadores/maradona.jpg" alt="Hubo un error al cargar la imagen" class="img-fluid">
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h3>Lionel Messi.</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>
+                                Lionel Messi, al igual que Maradona, tiene solo un mundial ganado pero logró llevar a Argentina a dos
+                                finales (2014 y 2022). Lionel protagonizó una de las mejores estadísticas hechas en un mundial, con 7 goles
+                                y 5 asistencias, llevándose así el premio al mejor jugador del mundial, que también ganó en el 2014, pero no
+                                pudo concretar el mundial soñado ya que perdió la final por 1 a 0 contra Alemania. Por lo tanto, Messi es el
+                                único jugador de la historia en ganar dos veces el premio al mejor jugador del mundial. La historia de Messi
+                                en los mundiales puede que no termine aquí, ya que puede que llegue a disputar el próximo mundial del 2026,
+                                convirtiéndose así en el único jugador en la historia en disputar 6 mundiales.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="../img/jugadores/messi.jpg" alt="Hubo un error al cargar la imagen" class="img-fluid">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="h4">
+                        Si quieres saber más sobre el mundo del fútbol haz click <a href="./SaberMas.html"
+                            target="_blank"
+                            class="text-decoration-none">aquí</a>.
+                    </h2>
+                </div>
+            </div>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
