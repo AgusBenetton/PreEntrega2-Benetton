@@ -1,53 +1,5 @@
-#body-inicio {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: beige; }
-  #body-inicio #main-inicio {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px; }
-    #body-inicio #main-inicio section {
-      margin-bottom: 40px; }
-      #body-inicio #main-inicio section h2 {
-        font-size: 24px;
-        margin: 10px 0; }
-        #body-inicio #main-inicio section h2 p {
-          margin: 0 0 10px; }
-          #body-inicio #main-inicio section h2 p img {
-            max-width: 100%;
-            height: auto; }
-
-.mundiales-selecciones {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: beige; }
-
-#body-saber {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: beige; }
-  #body-saber #main-saber {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px; }
-    #body-saber #main-saber #h2-saber {
-      text-align: center;
-      margin-bottom: 20px; }
-      #body-saber #main-saber #h2-saber #section-saber {
-        display: grid;
-        gap: 10px; }
-        #body-saber #main-saber #h2-saber #section-saber label {
-          font-weight: bold; }
-          #body-saber #main-saber #h2-saber #section-saber label input {
-            padding: 10px;
-            width: 100%;
-            box-sizing: border-box; }
-            #body-saber #main-saber #h2-saber #section-saber label input #enviar {
-              padding: 5px 10px;
-              background-color: #4CAF50;
-              color: white;
-              justify-self: center; }
+}
